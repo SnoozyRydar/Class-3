@@ -1,0 +1,31 @@
+.navbar {
+    background-color: rgb(102, 102, 102);
+    height: 50px;
+    overflow: hidden;
+}
+
+.navbar a  {
+    text-align: center;
+    padding: 16px 14px;
+    float: left;
+    color: white;
+    font-size: 18px;
+    transition-duration: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 187, 0);
+}
+
+
+.pagination a {
+    color: black;
+    text-align: center;
+    padding: 8px 14px;
+    transition-duration: 0.3s
+}
+
+.pagination a:hover {
+    background-color: dodgerblue;
+    color: white;
+}
